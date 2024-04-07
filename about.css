@@ -1,0 +1,159 @@
+body{
+    font-family: "Lato", "dotica",serif;
+    margin: 0;
+    display: flex;
+    min-height: 10h0vh;
+    flex-direction: column;
+    flex-direction: column;
+    overflow-y: auto;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: lighter;
+}
+#header1{
+    background-color: rgb(248, 248, 248);
+    height: 50px;
+    margin: 0px;
+}
+#header1 img{
+    height: 50px;
+    margin: 0px;
+    opacity: 90%;
+}
+#container{
+    height: 400px;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#contianer:empty{
+    background-color: aliceblue;
+}
+#box1{
+    background-color: transparent;
+    width: 30%;
+    height:150px;
+    text-align: center;
+    font-size: 42px;
+    margin: 30px;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    color: black;
+    font-weight: bold;
+    color: black;
+}
+#calculator{
+    margin-top: 10px;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: rgb(192, 178, 204);
+    width: 450px;
+    text-align: center;
+    text-decoration: none;
+}
+#link1{
+    text-decoration: none;
+}
+#link1 div:hover{
+    color: aliceblue;
+    text-decoration: underline;
+}
+#article1{
+    margin: 10px;
+    width: calc(100%-200px);
+}
+#picture1{
+    width: 40%;
+    margin: 10px;
+    float: left;
+}
+
+#container {
+    position: relative;
+    width: 100%; /* Change width to 100% to stretch the container */
+    height: 200%; /* Change height to 100% to stretch the container */
+    background-image: url(smiling.png);
+    background-size: cover; /* Ensure the background image covers the entire container */
+    background-position: center; /* adjust as needed */
+    opacity: 0.7;
+}
+
+#box1,
+#calculator {
+    /* your existing CSS styles */
+    position: relative;
+    z-index: 1; /* Make sure the elements are above the background image */
+}
+#container3 img{
+    margin: 10px;
+    float: right;
+}
+#footer{
+    margin-top: auto;
+    height: 70px;
+    margin-bottom: 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(144, 238, 144, 0.275);
+    align-items: center;
+}
+#footer p{
+    margin: 0px;
+    font-size: .5em;
+}
+#article1 h1{
+    display: inline-block;
+    border: 5px solid black;
+    padding: 10px;
+}
+nav {
+    background-color: #333; /* Background color of the navigation bar */
+    overflow: hidden; /* Ensures any overflowing content is hidden */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left; /* Float list items to the left */
+}
+
+nav li a {
+    display: block; /* Display links as block elements */
+    color: white; /* Text color */
+    text-align: center; /* Center align the text */
+    padding: 14px 16px; /* Padding around the links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+nav li a:hover {
+    background-color: #555; /* Background color of the link on hover */
+}
+#box1{
+    color: black;
+    text-shadow: h-shadow;
+}
+#article1 p{
+    color: rgb(120, 120, 120);
+    font-family: "Calibri";
+    /*font-weight: 1px;*/
+}
+#container3 img{
+    height: 400px;
+}
+#calculator:hover{
+    color: rgba(255, 255, 255, 0.741);
+    cursor: pointer;
+}
+#box1 p{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
